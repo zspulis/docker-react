@@ -14,7 +14,7 @@ deploy:
   provider: elasticbeanstalk
   region: 'us-east-2'
   app: 'docker-react'
-  env: 'dockerreact-env'
+  env: 'dockerreact-env-1'
   bucket_name: 'elasticbeanstalk-us-east-2-139016581443'
   bucket_path: 'docker-react'
   on:
